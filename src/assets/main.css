@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+  background: #D9D9D9;
+  font-family: 'K2D';
+}
+nav{
+  font-size: 24.23px;
+  font-weight: 400;
+  color: #000;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+nav a.router-link-active,
+nav a.router-link-exact-active{
+  font-weight: 700;
+}
+
+.navbar-nav{
+  margin-right: 0;
+  display: block;
+}
+nav ul li{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+@media (min-width:990px)  {
+  .navbar-nav{
+    display: table;
+    margin-right: 100px;
+  }
+  nav ul li{
+    margin-left: 100px;
+    line-height: 31.5px;
+    display: table-cell;
+    width: 170px;
+    text-align: center;
+  }
+
+} 
+#navbarNav{
+  white-space: nowrap;
+}
+.navbar-brand{
+  font-weight: 700;
+  font-size: 50.33px;
+  margin-left: 100px;
+}
+.navbar-toggler{
+  margin-right: 100px;
+}
+h1{
+  font-weight: 700;
+  font-size: 36px;
+  color: #CD5B25;
+  text-align: center;
+  margin-top: 60px;
+}
+h2{
+  max-width: 620px;
+  font-weight: 300;
+  font-size: 26px;
+  letter-spacing: -1%;
+  text-align: center;
+  margin: 30px auto;
+}
+.fav-info, .fav-heart{
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 100;
+  color: #b3b3b3;
+  transition: all 0.3s ease-out;
+}
+.fav-info:hover, .fav-heart:hover{
+  background-color: #C7C7C7;
+  color: #D9D9D9;
+  cursor: pointer;
+}
+.photo{
+  width: 100%;
+  padding: 0;
+}
+
+.photo img{
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.item-price{
+  white-space: nowrap;
+}
+.item-row{
+  margin: 40px 95px;
+}
+.item-row div{
+  margin-left: 0;
+}
+
+/* filter not fully functioning
+
+.filter{
+  font-weight: 700;
+  font-size: 26px;
+  text-align: center;
+  color: #CD5B25;
+}
+.filter-limiter{
+  margin: 40px 95px;
+}
+*/
