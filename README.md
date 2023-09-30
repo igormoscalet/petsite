@@ -1,4 +1,7 @@
 # pettestwebim
+
+A pet-oriented product selling test-site based on Vue.js and Node.js
+
 ## Project Setup
 
 ```sh
